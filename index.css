@@ -1,3 +1,8 @@
+body {
+    background: black;
+    color: white;
+}
+
 .header{
     width: 100vw;
     justify-items: center;
@@ -17,7 +22,6 @@
     font-family: Verdana, Helvetica, Arial, sans-serif;
 }
 
-body {
-    background: black;
-    color: white;
+.videos-triller{
+    width: 400px;
 }
