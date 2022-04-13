@@ -1,6 +1,9 @@
 body {
-    background: black;
-    color: white;
+    background: white;
+    color: black;
+}
+div{
+    display: flex;
 }
 
 .header{
@@ -21,7 +24,13 @@ body {
     margin-right: 60px;
     font-family: Verdana, Helvetica, Arial, sans-serif;
 }
+.videos1{
+    overflow: hidden;
+    justify-content: center;
+    color: blue;
+}
 
-.videos-triller{
+.videos1 .videos2 .videos-triller{
+    border-radius: 16px;
     width: 400px;
 }
